@@ -32,11 +32,18 @@
     }
 }
 
+.informacion-meta {
+    span {
+        color: $amarillo;
+    }
+}
+
 .entrada-contenido {
     a {
         color: $negro;
         display: inline-block;
         margin-top: 2rem;
+
         @include tablet {
             margin: 0;
         }
@@ -54,10 +61,6 @@
             display: block;
             background-color: $verde;
         }
-    }
-
-    span {
-        color: $amarillo;
     }
 
 }
