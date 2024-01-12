@@ -1,0 +1,33 @@
+.contenido-nosotros {
+    text-align: justify;
+
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+
+    
+
+}
+
+.imagen-nosotros {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.texto-nosotros {
+    blockquote {
+        margin: 0;
+        padding: 1rem 0 0 0;
+        font-weight: $black;
+        font: 2.2rem;
+
+        @include tablet {
+            padding: 0;
+        }
+    }
+    p {
+        margin: 0;
+    }
+}
