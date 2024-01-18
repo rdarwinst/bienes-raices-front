@@ -1,11 +1,9 @@
-const url = window.location.href;
-
-if (url.includes('contacto.html')) {
-    form();
+const nombrePagina = window.location.pathname;
+if (nombrePagina === '/contacto.html') {
+    iniciarVerificacion();
 }
 
-
-function form() {
+function iniciarVerificacion() {
     const datos = {
         nombre: '',
         email: '',
